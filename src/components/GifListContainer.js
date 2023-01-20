@@ -7,11 +7,11 @@ function GifListContainer(){
   
 
     useEffect(() => {
-        fetch("https://api.giphy.com/v1/gifs/search?q=dolphin&api_key=6ofpYyZ9LjLzBtntrYiypwRbmhjlIOjS&rating=g")
+        fetch("https://api.giphy.com/v1/gifs/search?q=dolphin&api_key=VIabvkBsIXuf2YJJxxDJigAwsYTFLazp&rating=g")
         .then(res => res.json())
         .then(data=>{
             //show just 3 gifs
-            const gifArray = data.data.slice(0,3)
+           const gifArray = data.data.slice(0,3)
             setGifList(gifArray)
         }
         )

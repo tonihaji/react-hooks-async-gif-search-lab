@@ -22,7 +22,7 @@ function GifSearch() {
     }
 
     React.useEffect(() => {
-        fetch(`https://api.giphy.com/v1/gifs/search?q=${searchTerm}&api_key=6ofpYyZ9LjLzBtntrYiypwRbmhjlIOjS&rating=g`)
+        fetch(`https://api.giphy.com/v1/gifs/search?q=dolphin&api_key=VIabvkBsIXuf2YJJxxDJigAwsYTFLazp&rating=g`)
         .then(res => res.json())
         .then(
             (result) => {
