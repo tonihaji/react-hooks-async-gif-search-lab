@@ -10,7 +10,9 @@ function GifListContainer(){
         fetch("https://api.giphy.com/v1/gifs/search?q=dolphin&api_key=6ofpYyZ9LjLzBtntrYiypwRbmhjlIOjS&rating=g")
         .then(res => res.json())
         .then(data=>{
-            setGifList(data.data)
+            //show just 3 gifs
+            const gifArray = data.data.slice(0,3)
+            setGifList(gifArray)
         }
         )
     }, [])
@@ -23,4 +25,4 @@ function GifListContainer(){
 
 }
 
-export default GifListContainer;
+export default GifListContainer
