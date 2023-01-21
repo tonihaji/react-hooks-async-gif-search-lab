@@ -11,7 +11,7 @@ function GifListContainer(){
         .then(res => res.json())
         .then(data=>{
             //show just 3 gifs
-           const gifArray = data.data.slice(0,3)
+            const gifArray = data.data.slice(0,3)
             setGifList(gifArray)
         }
         )
@@ -25,4 +25,4 @@ function GifListContainer(){
 
 }
 
-export default GifListContainer;
+export default GifListContainer
