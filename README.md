@@ -26,7 +26,7 @@ potential rate limiting if other students are also working on this lesson.
 Once you've got your key, you should be able to access the Giphy API from a
 browser and receive a JSON response to confirm everything is working.
 
-`https://api.giphy.com/v1/gifs/search?q=dolphin&api_key=VIabvkBsIXuf2YJJxxDJigAwsYTFLazp&rating=g`
+`https://api.giphy.com/v1/gifs/search?q=dolphin&api_key=mXbVJWdsavXQBpM9iya2HWLyFrRe439y&rating=g`
 
 You should get back an array of objects, each containing information about a
 particular image.
